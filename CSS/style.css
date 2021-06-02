@@ -1,0 +1,471 @@
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    height: auto;
+    
+}
+ 
+.menunovo {
+    padding-left: 50%;  
+        
+}
+
+.navbar-brand{
+    position: relative;
+    left: 15%;
+}
+
+
+.logos {
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 35px;
+    color: rgb(30, 54, 54);
+}
+
+.container {
+    position: relative;
+    background-color: #ffffff;  
+}   
+
+#menu{
+    position: relative;
+    height:100px; 
+    color: aliceblue;
+}
+
+#lista{
+    position: relative;
+    width:100%;
+    list-style: none;
+}
+
+
+#nomeItem{
+    position: relative;
+    width: 35%;
+    height: 50%;
+    top: 15%;
+    text-decoration: none;
+    color: aliceblue;
+    text-align: center;
+    font-size: 35px;
+}
+
+#logo{
+    position: relative;
+    right: 5%;
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+
+.itemLista{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.conteudo{
+    position: relative;
+    top: 30px;
+    height: auto;
+    margin-bottom: 11%;
+}
+#cabecalhoTitulo{
+    position: relative;
+    height: 15%;
+    background:white;
+}
+
+#containerConteudo{
+    position: relative;
+    height: 100%;
+    background: white;
+    
+}
+
+.titulo{
+    text-align: center;
+    width: 100%;
+    font-size: 45px;
+    font-family: 'Dancing Script', cursive;
+     border-bottom: solid rgb(172, 86, 86) 1.5px;
+    text-align: center;
+    
+    font-size: 45px;
+    font-family: 'Dancing Script', cursive;
+    border-radius: 10px;
+
+}
+
+/*home */ 
+
+.sobreNos{
+    text-align: justify;
+    position: relative;
+    left: 7%;
+    width: 80%;
+}
+
+.carousel-item{
+    position: relative;
+    filter: brightness(0.7);
+    transition: 0.7s;
+    margin-bottom: 2%;
+}
+
+#copyright2{
+    position: absolute;
+    background: #333333;
+    margin-bottom: 0px;
+    width: 100%;
+    color: white;
+   
+    
+    
+    
+}
+#copyright2 a {
+    color: #6fc5b1;
+}
+ion-icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 2%;
+}
+.face:hover {
+    background-color: dodgerblue;
+    border-radius: 5px;
+    
+}
+.insta:hover {
+    background-color: deeppink;
+    border-radius: 5px;
+    
+} 
+.ttw:hover {
+    background-color:darkturquoise;
+    border-radius: 5px;
+    
+} 
+.yt:hover {
+    background-color:red;
+    border-radius: 5px;
+   
+    
+} 
+#maps {
+    margin-top: 10%;
+    height: 100%;
+    width: 100%;
+    border-right: solid rgba(0, 0, 0, 0.356) 2px;
+}
+.mapa {
+    position: relative;
+    overflow: hidden;
+    
+       
+}
+.mapa img {
+    max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.mapa:hover img {
+   -moz-transform: scale(2.1);
+	-webkit-transform: scale(2.1);
+	transform: scale(2.1);
+}
+.borda {
+    border: solid burlywood 2px;
+  
+}
+#mapdes{
+    margin-top: 15%;
+    color:  #838383;
+            
+}
+#mapdes h3 {
+    color: #649e93;
+}
+
+/*cardapio */ 
+
+#cardapios{
+    position: relative;
+    top: 50px;
+}
+
+.card-text{
+    text-align: justify;
+}
+
+.imgCard{
+    position: relative;
+    height: 200px;
+}
+
+/*galeria casamento*/
+
+#subTitulodiv{
+    font-size: 25px;
+    text-align: center;
+    color: rgb(125, 235, 198);
+    border: solid rgba(127, 255, 212, 0.788) 2px;
+    border-radius: 15px;
+    width: 40%;
+    position: relative;
+    left: 30%;
+    height: 80%;
+}
+
+/* Supressor galeria precisa pois eu tive que mudar o nome  */
+.supressorGaleria{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+
+.supressorGaleria img {
+    max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.supressorGaleria:hover img {
+    -moz-transform: scale(3.1);
+	-webkit-transform: scale(2.1);
+	transform: scale(1.2);
+}
+
+
+.imgGaleria{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#containerConteudoGaleria{
+    position: relative;
+    top: 3%;
+    height: 100%;
+    background: white;
+}
+
+
+#rowGaleria1{
+    position: relative;
+    margin-top: 15px;  
+}
+
+#rowGaleria2{
+    position: relative;
+    margin-top: 15px;
+}
+
+#rowGaleria3{
+    margin-top: 25px;
+}
+
+
+#icones{
+    margin-top: 20px;
+}
+
+
+/* Cardapio     tudo isso aqui para baixo */
+
+
+.conteudoCardapio1{  
+    position: relative;
+    margin-top: 100px;
+}
+.card {
+    margin-bottom: 25px;
+}
+
+
+.titulo2 {
+    margin-bottom: 15%;
+    border-bottom: solid rgb(172, 86, 86) 1.5px;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Dancing Script', cursive;
+    border-radius: 10px;
+}
+
+.alinha {
+    width: 20%;
+    margin-left: 40%;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.356);
+    border-radius: 10px;
+}
+
+
+
+.imgCardapio{
+    position: relative; 
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: solid rgb(0, 0, 0) 1px;
+    box-shadow: 2px 3px 10px 2px  rgba(141, 141, 141, 0.945);
+}
+
+.card-title{
+    position: relative;
+    color: #5a8b80;  
+}
+
+.descricaoCardapio{
+    position: relative;
+    text-align: justify;
+    width: 70%;
+    margin-left: 10%;
+    
+}
+
+#rowCardapio2{
+    position: relative;
+    margin-top: 45px;
+}
+
+#rowCardapio3{
+    position: relative;
+    margin-top: 45px;
+}
+
+@media screen and (max-width:800px){
+    
+    .supressor{
+        position: relative;
+        width: 550px;
+    }
+    
+    .alinha{
+        position: relative;
+        width:320px;
+        margin-left: 5%;
+        
+    }
+    
+    .card {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width:600px){
+    
+    .supressor{
+        position: relative;
+        width: 400px;
+    }
+    
+    .alinha{
+        position: relative;
+        width:320px;
+        margin-left: 10%;
+        
+    }
+}
+
+
+
+@media screen and (max-width:440px){
+    
+    .supressor{
+        position: relative;
+        width: 300px;
+    }
+    
+    
+    .alinha{
+        position: relative;
+        width:50%;
+        margin-left: 10%;
+        
+    }
+}
+
+
+#orcamento {
+    width: 100%;
+    background-color: white;
+}
+
+/* form */
+#formulario {
+    width: 50%;
+    margin-left: 25%;
+    
+}
+form{
+    margin-top: 1%;
+    border-radius: 1%;
+    background-color: white;
+ 
+}
+#realize {
+    text-align: center;
+    margin-top: 1%;
+}
+
+#formDiv{
+    position: relative;
+    top:2%;
+    width: 100%;
+    padding: 10%;
+}
+
+#enviar{
+    position: relative;
+    margin-top:30px;
+}
+
+@media screen and (max-width:500px){
+    
+    #formulario{
+        position: relative;
+        width:100%;
+        margin-left:0%;
+    }
+    
+    .navbar-brand{
+        position: relative;
+        left: 0%;
+    }
+    
+    .menunovo {
+        padding-left: 0%;  
+        
+    }
+    
+    .mapa{
+        position: relative;
+        width: 320px;
+    }
+    
+    #maps.col{
+        position: relative;
+        margin-top: 100px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    
+    #copyright2{
+        position: absolute;
+        margin-bottom: 0px;
+    }
+    
+    .alinha{
+        position: relative;
+        left: 16%;
+        
+    }
+}
+
